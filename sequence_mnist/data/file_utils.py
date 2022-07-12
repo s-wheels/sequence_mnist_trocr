@@ -16,22 +16,21 @@ import urllib.error
 import urllib.request
 import zipfile
 from typing import (
+    IO,
     Any,
     Callable,
-    List,
-    Iterable,
-    Optional,
-    TypeVar,
     Dict,
-    IO,
-    Tuple,
+    Iterable,
     Iterator,
+    List,
+    Optional,
+    Tuple,
+    TypeVar,
 )
 from urllib.parse import urlparse
 
 import requests
 from tqdm import tqdm
-
 
 USER_AGENT = "pytorch/vision"
 

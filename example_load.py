@@ -1,7 +1,6 @@
-from sequence_mnist.model import SequenceMNIST
-
 import matplotlib.pylab as plt
 
+from sequence_mnist.model import SequenceMNIST
 
 train = SequenceMNIST(train=True, root="/tmp/data", download=True)
 test = SequenceMNIST(train=False, root="/tmp/data", download=True)

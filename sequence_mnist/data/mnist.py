@@ -1,11 +1,11 @@
+import codecs
 import os
 import sys
-import codecs
 from urllib.error import URLError
 
 import numpy as np
 
-from sequence_mnist.data.file_utils import download_and_extract_archive, check_integrity
+from sequence_mnist.data.file_utils import check_integrity, download_and_extract_archive
 
 SN3_PASCALVINCENT_TYPEMAP = {
     8: np.uint8,
